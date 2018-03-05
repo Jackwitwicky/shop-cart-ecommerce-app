@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.incobeta.shopcart.CartActivity">
+
+
+    <Button
+        android:id="@+id/goToCheckoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Proceed to checkout"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/cartTotalItemCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/goToCheckoutButton"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="16dp"
+        android:text="Subtotal - 3 Items"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/cartTotalItemPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/cartTotalItemCount"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="KES 2400"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cartRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/cartTotalItemCount"/>
+</RelativeLayout>

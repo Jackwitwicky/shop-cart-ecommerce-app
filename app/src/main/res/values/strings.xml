@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ShopCart</string>
+
+    <!--login activity-->
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button_text">Login</string>
+    <string name="no_account_prompt">Don\'t have an account?</string>
+    <string name="sign_up_button_text">Sign up</string>
+
+
+    <!--register activity-->
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="address_hint">Address</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="title_activity_dashboard">Browse</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--dashboard activity-->
+    <string name="women_text">Women</string>
+    <string name="men_text">Men</string>
+    <string name="kids_text">Kids</string>
+    <string name="accessories_text">Accessories</string>
+
+    <!--product details activity-->
+    <string name="details_text">Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+</resources>

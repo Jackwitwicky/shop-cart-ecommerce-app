@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.incobeta.shopcart.DashActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TabLayout
+            android:id="@+id/categoryTab"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+
+            android:background="@color/colorPrimary">
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/womenTab"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/women_text"/>
+
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/menTab"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/men_text"/>
+
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/kidsTab"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/kids_text"/>
+
+        </android.support.design.widget.TabLayout>
+
+        <RelativeLayout
+            android:id="@+id/mainContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/categoryTab"/>
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/dashboardCartFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_shopping_cart_black_24dp" />
+
+</android.support.design.widget.CoordinatorLayout>
